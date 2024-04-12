@@ -1,0 +1,32 @@
+Using SQL from CLI
+
+/usr/local/mysql/bin/mysql -u root -p
+
+Create schema.sql
+source schema.sql
+
+
+// doesn't work in windows
+
+So first set to path variables the bin value 
+restart the system
+mysql -V      (to check if correctly placed)
+
+then do the following
+
+cd C:\'Program Files'\MySQL\'MySQL Server 8.0'\bin 
+(when using cmd remove those quotes. use only in vs code)
+mysql -u root -p
+
+Enter password.
+
+
+
+
+ALSO ...
+Make schema.sql
+Open using USE <databse name>
+source schema.sql (doesn't work)
+
+source C:/Users/DELL/Desktop/Delta/SQLClass/schema.sql
+(use absolute path)
